@@ -1,0 +1,188 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; 
+    background: #E9EBEE;
+	font-family: 'Nunito';
+	height:95%;
+}
+
+html {
+	height: 95%;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 0;
+}
+/*menu*/
+.navbar-brand {
+    padding: 4px; 
+}
+.navbar-inverse {
+    background-color: #21B799;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.thumbnail {
+    padding: 2px; 
+    margin-bottom: 15px;
+}
+
+.thumbnail .caption {
+    padding: 0px;
+    color: #666;
+    font-weight: bold;
+}
+
+.label-success {
+    background-color: #21B799;
+    position: absolute;
+}
+
+.no-pd {
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+hr {
+	margin-top: 1px ;
+    margin-bottom: 1px;
+}
+
+.scroll {
+	max-height: 50%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.green {
+	color: #21B799;
+	font-weight: bold;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width:768px) {
+   .label-success {
+    	font-size: 8px;
+    	right: 18px;
+    	position: absolute;
+	}
+	small {
+		font-size: 62%
+	}
+}
+
+/*calcultor*/
+#calculator {
+  width: 100%;
+  height: auto;
+  background:#fff;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.top span.clear {
+float:left;
+box-shadow:0 4px #ff7c87;
+color:#FFF;
+}
+
+.top .input {
+	height:3em;
+	width:9em;
+  	padding-right: 1em;
+	float:right;
+	color:#666;
+	line-height: 3em;
+	text-align:right;
+	letter-spacing:1px;
+}
+
+.keys,.top {
+	overflow:hidden;
+}
+
+.keys span,.top span.clear {
+	float:left;
+	cursor:pointer;
+	width:25%;
+	height:3em;
+	line-height: 3em;
+	font-weight: bold;
+	color:#666;
+	text-align:center;
+	user-select:none;
+	transition: background-color .2s ease;
+  	border-right: 1px solid #eee;
+  	border-bottom: 1px solid #eee;
+}
+
+.keys span.operator {
+	background:rgba(255,255,255,0.2);
+	border-right: 0;
+  	color: rgba(0,0,0,0.5);
+}
+
+.keys span.equals {
+	color:#888e5f;
+}
+
+.keys span:hover {
+	background:rgba(255,255,255,0.3);
+	color:#ccc;
+}
+
+.keys > .payment {
+	width: 100%;
+}
+
+.keys span.equals:hover {
+	background:rgba(255,255,255,0.2);
+	color:#fff;
+}
+
+.top span.clear:hover {
+	background:rgba(255,255,255,0.2);
+	color:#FFF;
+}
+
+.keys span:active {
+}
+
+.keys span.equals:active {
+}
+
+.top span.clear:active {
+}
+
+.well { 
+ 	background: #fff;	
+    margin-bottom: 0; 
+}
+#fix-height
+{   
+    height: 100vh;   
+    padding:3px; 
+      overflow: auto;
+}
+#full-height {
+	min-height: 100%;
+	height: 100%;
+	overflow:auto;
+}
